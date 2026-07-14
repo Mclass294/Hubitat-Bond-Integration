@@ -1,0 +1,91 @@
+{
+  "packageName": "BOND Home Integration Community Edition",
+  "author": "Dominick Meglio, Neil McLaren",
+  "version": "1.1.0",
+  "minimumHEVersion": "2.3.0",
+  "dateReleased": "2026-07-04",
+  "releaseNotes": "Community edition adding position events (0 or 100) for BOND motorized shades, enabling compatibility with Hubitat Easy Dashboard Window Shade tiles.",
+  "documentationLink": "https://github.com/Mclass294/Hubitat-Bond-Integration/blob/main/README.md",
+  "licenseFile": "https://raw.githubusercontent.com/Mclass294/Hubitat-Bond-Integration/main/LICENSE",
+  "apps": [
+    {
+      "id": "dcm.bond.home.integration.community",
+      "name": "BOND Home Integration Community Edition",
+      "namespace": "dcm.bond",
+      "location": "https://raw.githubusercontent.com/Mclass294/Hubitat-Bond-Integration/main/apps/BOND_Home_Integration.groovy",
+      "required": true
+    }
+  ],
+  "drivers": [
+    {
+      "id": "dcm.bond.fan",
+      "name": "BOND Fan",
+      "namespace": "bond",
+      "location": "https://raw.githubusercontent.com/Mclass294/Hubitat-Bond-Integration/main/drivers/BOND_Fan.groovy",
+      "required": true
+    },
+    {
+      "id": "dcm.bond.fan.dimmable.light",
+      "name": "BOND Fan Dimmable Light",
+      "namespace": "bond",
+      "location": "https://raw.githubusercontent.com/Mclass294/Hubitat-Bond-Integration/main/drivers/BOND_Fan_Dimmable_Light.groovy",
+      "required": true
+    },
+    {
+      "id": "dcm.bond.fan.light",
+      "name": "BOND Fan Light",
+      "namespace": "bond",
+      "location": "https://raw.githubusercontent.com/Mclass294/Hubitat-Bond-Integration/main/drivers/BOND_Fan_Light.groovy",
+      "required": true
+    },
+    {
+      "id": "dcm.bond.fan.timer.light",
+      "name": "BOND Fan Timer Light",
+      "namespace": "bond",
+      "location": "https://raw.githubusercontent.com/Mclass294/Hubitat-Bond-Integration/main/drivers/BOND_Fan_Timer_Light.groovy",
+      "required": true
+    },
+    {
+      "id": "dcm.bond.fan.with.direction",
+      "name": "BOND Fan With Direction",
+      "namespace": "bond",
+      "location": "https://raw.githubusercontent.com/Mclass294/Hubitat-Bond-Integration/main/drivers/BOND_Fan_With_Direction.groovy",
+      "required": true
+    },
+    {
+      "id": "dcm.bond.fireplace",
+      "name": "BOND Fireplace",
+      "namespace": "bond",
+      "location": "https://raw.githubusercontent.com/Mclass294/Hubitat-Bond-Integration/main/drivers/BOND_Fireplace.groovy",
+      "required": true
+    },
+    {
+      "id": "dcm.bond.fireplace.fan",
+      "name": "BOND Fireplace Fan",
+      "namespace": "bond",
+      "location": "https://raw.githubusercontent.com/Mclass294/Hubitat-Bond-Integration/main/drivers/BOND_Fireplace_Fan.groovy",
+      "required": true
+    },
+    {
+      "id": "dcm.bond.fireplace.light",
+      "name": "BOND Fireplace Light",
+      "namespace": "bond",
+      "location": "https://raw.githubusercontent.com/Mclass294/Hubitat-Bond-Integration/main/drivers/BOND_Fireplace_Light.groovy",
+      "required": true
+    },
+    {
+      "id": "dcm.bond.generic.device",
+      "name": "BOND Generic Device",
+      "namespace": "bond",
+      "location": "https://raw.githubusercontent.com/Mclass294/Hubitat-Bond-Integration/main/drivers/BOND_Generic_Device.groovy",
+      "required": true
+    },
+    {
+      "id": "dcm.bond.motorized.shade",
+      "name": "BOND Motorized Shade",
+      "namespace": "bond",
+      "location": "https://raw.githubusercontent.com/Mclass294/Hubitat-Bond-Integration/main/drivers/BOND_Motorized_Shade.groovy",
+      "required": true
+    }
+  ]
+}
